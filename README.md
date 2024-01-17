@@ -6,9 +6,10 @@ The goal is to design and implement my CSS, starting with mobile design first, t
 Responsive design is implementing using relative units and flex. I might try to develop a 2nd version using grid layout (still hugely hypothetical).
 
 What's left to build in this project:
-- Article template
-- About me template
+- ~~Article template~~
+- ~~About me template~~
 - The whole set of larger screen templates (home, article, about me)
-- Replacing hard coded articles by articles stored in a separate data.js, to store articles content.
+- ~~Replacing hard coded articles by articles stored in a separate data.js, to store articles content.~~
+- Creating a logic to handle different rendering if the article is "featured" or if it is a "sub-article"
 
 Happy Coding!
