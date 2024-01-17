@@ -7,9 +7,11 @@ function getFeatureItem(){
         if (article.type === 'feature'){
             featureHtml += `
             <article class="feature" id="${article.id}">
+                <div class="feature-content">
                     <div class="date">${article.date}</div>
                     <h1 class="title">${article.title}</h1>
                     <div class="summary">${article.summary}</div>
+                </div>
                 </article>`
             }})
         return featureHtml}
@@ -25,21 +27,25 @@ function getArticleItem(){
                     <div class="date">${article.date}</div>
                     <h2 class="title">${article.title}</h2>
                     <div class="summary">${article.summary}</div>
-                </article>
-                `}
-    })
-
+                </article>`
+                }
+})
     return articleHtml
 }
 
 function renderArticles(){
-    document.getElementById('article-feed').innerHTML = getArticleItem()
+    const articleContainer = document.getElementById('article-feed');
+    if (articleContainer) {
+        articleContainer.innerHTML = getArticleItem();
+    }
 }
 
 function renderFeature(){
-    document.getElementById('feature-feed').innerHTML = getFeatureItem()
+    const featureContainer = document.getElementById('feature-feed');
+    if (featureContainer) {
+        featureContainer.innerHTML = getFeatureItem();
+    }
 }
 
 renderFeature()
 renderArticles()
-

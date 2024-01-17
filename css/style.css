@@ -6,9 +6,10 @@ body {
     max-width: 400px;
 }
 
-main:not(#article-1.feature){
-    margin-left: 0.3em;
-    margin-right: 0.3em;
+#article-feed,
+.feature-content{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }
 
 /* Layout */
@@ -36,12 +37,6 @@ nav.menu { justify-content: end; }
     justify-content: end;
 }
 
-.feature .date,
-.feature .title,
-.feature .summary {
-    padding-left: 0.3em;
-}
-
 .home, 
 .about {
     margin: 1em;
@@ -53,14 +48,6 @@ main.container {
     justify-content: center;
     align-items: center;
     gap: 1.8em;
-}
-
-.sub {
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    /* padding-left: 0.3em;
-    padding-right: 0.3em; */
 }
 
 .image { 
@@ -148,3 +135,24 @@ a {
 }
 
 /* Media Queries */
+@media (min-width: 768px) {
+    body,
+    html {
+        max-width: 768px;
+    }
+
+    #feature-feed {
+        margin-bottom: 0;
+    }
+
+    #article-feed{
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        margin: 0 1.5em 1.5em 1.5em;
+    }
+
+    .feature-content{
+        padding-left: 1.5em;
+    }
+}
