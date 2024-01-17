@@ -8,8 +8,9 @@ Responsive design is implementing using relative units and flex. I might try to 
 What's left to build in this project:
 - ~~Article template~~
 - ~~About me template~~
-- The whole set of larger screen templates (home, article, about me)
+- ~~The whole set of larger screen templates (home, article, about me)~~
 - ~~Replacing hard coded articles by articles stored in a separate data.js, to store articles content.~~
 - ~~Creating a logic to handle different rendering if the article is "featured" or if it is a "sub-article"~~
+- Adding clickable articles
 
 Happy Coding!
