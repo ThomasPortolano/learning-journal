@@ -10,6 +10,6 @@ What's left to build in this project:
 - ~~About me template~~
 - The whole set of larger screen templates (home, article, about me)
 - ~~Replacing hard coded articles by articles stored in a separate data.js, to store articles content.~~
-- Creating a logic to handle different rendering if the article is "featured" or if it is a "sub-article"
+- ~~Creating a logic to handle different rendering if the article is "featured" or if it is a "sub-article"~~
 
 Happy Coding!

@@ -97,11 +97,6 @@ p.copyright {
     max-width: 200px;
 }
 
-/* .details {
-    margin-left: 0.3em;
-    margin-right: 0.3em;
-} */
-
 /* Typography */
 
 header { font-family: 'Roboto', sans-serif; }
@@ -145,6 +140,11 @@ h3.recent-posts {
 .view-more {
     font-weight: bold;
     text-decoration: underline;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
 }
 
 /* Media Queries */
