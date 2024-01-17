@@ -1,14 +1,4 @@
-# cNP6Gwc6
-
-Quick start:
-
-```
-$ npm install
-$ npm start
-````
-
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+# My Learning Journal
 
 In this project, I am working on responsive design for a potential blog. 
 The goal is to design and implement my CSS, starting with mobile design first, then expending the code to larger screens using Media Queries.
