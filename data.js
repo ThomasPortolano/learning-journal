@@ -1,12 +1,12 @@
 const articleArray = [
     {
-        title: "My new journey as a bootcamp student",
+        title: "Bored Bot",
         type: "feature",
         date: "July 23, 2022",
         id: "article-1",
         summary: "After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects and meet like-minded peers.",
         image: "https://images.unsplash.com/photo-1509460913899-515f1df34fea?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Ym9vdGNhbXB8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80",
-        alt: "The surface of a desk, shopping rulers, tools, etc."
+        alt: "The surface of a desk, shopping rulers, tools, etc.",
     },
     {
         title: "Blog one",
