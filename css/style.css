@@ -28,7 +28,9 @@ header.container { justify-content: space-between; }
 nav.menu { justify-content: end; }
 
 .feature { 
-    background-image: url("https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?q=80&w=640&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* background-image: url("https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?q=80&w=640&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    /* background-image: url('./articles/assets/learning-journal.png');*/
+    background-image: url('../articles/assets/learning-journal.png');
     background-size: cover;
     text-shadow: grey;
     height: 18.75em;
@@ -155,4 +157,10 @@ a {
     .feature-content{
         padding-left: 1.5em;
     }
+
+    .image-container {
+        text-align: center;
+        margin-bottom: 3em;
+    }
+    
 }

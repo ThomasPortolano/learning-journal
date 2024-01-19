@@ -12,6 +12,8 @@ What's left to build in this project:
 - ~~Replacing hard coded articles by articles stored in a separate data.js, to store articles content.~~
 - ~~Creating a logic to handle different rendering if the article is "featured" or if it is a "sub-article"~~
 - Adding clickable articles
+- Blog template should be populated by content from a data repo (this including link to articles, pictures, and different paragraphs)
+- CSS widget would be helpful to present code
 - And more!
 
 Happy Coding!
