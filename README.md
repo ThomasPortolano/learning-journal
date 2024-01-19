@@ -11,9 +11,32 @@ What's left to build in this project:
 - ~~The whole set of larger screen templates (home, article, about me)~~
 - ~~Replacing hard coded articles by articles stored in a separate data.js, to store articles content.~~
 - ~~Creating a logic to handle different rendering if the article is "featured" or if it is a "sub-article"~~
-- Adding clickable articles
 - Blog template should be populated by content from a data repo (this including link to articles, pictures, and different paragraphs)
-- CSS widget would be helpful to present code
 - And more!
+
+### Highest priority:
+Refactor code to project presentation. Main keys should be:
+- Title
+- Link
+- Picture 
+- Summary
+- Project description
+
+- Additional fields could be: prod link/ last update date
+
+- Clickable articles
+
+
+
+### Low priority:
+- CSS class to present code
+- Change visual for the bored bot
+- Auto sort articles based on time in the db
+- My learning journal (skill wise) template
+- Idea log template: 
+- Log dev ideas cross project for improvements
+- Checklist maybe?
+
+
 
 Happy Coding!
